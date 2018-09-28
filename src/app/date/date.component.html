@@ -1,0 +1,9 @@
+<p>
+  <span [style.color]="color">Today is: {{today}}</span>
+  <button (click)="changeColor('pink')">ChangeColorToYellow</button>
+  <select (change)="changeColor($event.target.value)" >
+    <option>red</option>
+    <option>blue</option>
+    <option>green</option>
+    </select>
+</p>
